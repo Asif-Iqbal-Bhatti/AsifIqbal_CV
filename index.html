@@ -13,7 +13,7 @@
 		<!-- Wrapper -->
 	<div id="wrapper">
 
-	<!-- Header -->
+<!------------------------------------------------------- Header ------------------------------------------------------->
 	<header id="header">
 		<div class="logo">
 			<span class="icon fa-gem"></span>
@@ -34,16 +34,16 @@
 			</div>
 		</div>
 
-			<nav>
-				<ul>
-					<li><a href="#EXPERIENCE">EXPERIENCE</a></li>
-					<li><a href="#EDUCATION">EDUCATION</a></li>
-					<li><a href="#PROJECTS">PROJECTS</a></li>					
-					<li><a href="#SKILLS">SKILLS</a></li>
-					<li><a href="#PUBLICATION">PUBLICATION</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+		<nav>
+			<ul>
+				<li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+				<li><a href="#EDUCATION">EDUCATION</a></li>
+				<li><a href="#PROJECTS">PROJECTS</a></li>					
+				<li><a href="#SKILLS">SKILLS</a></li>
+				<li><a href="#PUBLICATION">PUBLICATION</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
 
 <!------------------------------------------------------- MAIN ------------------------------------------------------->
@@ -74,7 +74,7 @@ framework</p>
 
 <!-------------------------------------------- EDUCATION ----------------------------------------------------->
 	<article id="EDUCATION">
-		<h2 class="major">EDUCATION</h2>
+		<h1 class="major">EDUCATION</h1>
 		<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 		<p><b>Ph.D. Grenoble INP Phelma, University of Grenoble Alps (UGA)
  2015-2019</b>
@@ -96,7 +96,7 @@ Numerical analysis, Partial and Ordinary differential equations. Modeling & Simu
 
 <!-------------------------------------------- PUBLICATION -------------------------------------------->
 		<article id="PUBLICATION">
-			<h2 class="major">PUBLICATION</h2>
+			<h1 class="major">PUBLICATION</h1>
 			<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 			<ol>
 			<li>Correlation of electrochemical and ab initio investigations of Iron poly-bipyridine coordination complexes for battery applications: impact of anionic environment and local geometries of the redox complexes on the electrochemical response. Physical Chemistry Chemical Physics (Accepted) 2020. <a href="https://doi.org/10.1039/D0CP01576H">https://doi.org/10.1039/D0CP01576H</a> </li>
@@ -106,26 +106,31 @@ Numerical analysis, Partial and Ordinary differential equations. Modeling & Simu
 
 <!--------------------------------------------  SKILLS -------------------------------------------->
 	<article id="SKILLS">
-			<h2 class="major">SKILLS</h2>
+			<h1 class="major">SKILLS</h1>
 			<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
 			<p>Origin, LaTeX, Adobe Illustrator, Linux, FORTRAN, Python, C etc.,
-<li>DFT codes: VASP, Gaussian09, Orca, MOPAC, BigDFT</li>
-<li>MD codes: Ambe</li></p>
+			<li>DFT codes: VASP, Gaussian09, Orca, MOPAC, BigDFT</li>
+			<li>MD codes: Ambe</li></p>
 								
 	</article>
 
 <!------------------------------------------------------- PROJECTS ------------------------------------------------------->
-		<article id="PROJECTS">
-			<h2 class="major">PROJECTS</h2>
-			<form method="post" action="#">
-			<p><li> High Entropy Alloys</li></p>
-			<p><li> Modeling and simulating materials for battery applications with DFT and MD </li></p>
-		</article>
+	<article id="PROJECTS">
+		<h1 class="major">PROJECTS</h1>
+
+		<p><li> High Entropy Alloys</li>
+		<a href = "https://asif-iqbal-bhatti.github.io/High-Entropy-Alloys/">https://asif-iqbal-bhatti.github.io/High-Entropy-Alloys/</a></p>
+	
+		<p><li> Modeling and simulating materials for battery applications with DFT and MD </li>
+		<a href = "https://github.com/Asif-Iqbal-Bhatti/Metal-Organic-Framework">https://github.com/Asif-Iqbal-Bhatti/Metal-Organic-Framework</a></p>
+
+		
+	</article>
 
 <!-------------------------------------------- CONTACT --------------------------------------------->
 	<article id="contact">
-		<h2 class="major">Contact</h2>
-		<form method="post" action="#">
+		<h1 class="major">Contact</h1>
+		<form method="GET" action="mailto:asif.bhatti@lspm.cnrs.fr">
 			<div class="fields">
 				<div class="field half">
 					<label for="name">Name</label>
@@ -144,6 +149,13 @@ Numerical analysis, Partial and Ordinary differential equations. Modeling & Simu
 				<li><input type="submit" value="Send Message" class="primary" /></li>
 				<li><input type="reset" value="Reset" /></li>
 			</ul>
+			<div id="error_message" style="width:100%; height:100%; display:none; ">
+				<h4>Error</h4>
+				Sorry there was an error sending the form.
+				</div>
+				<div id="success_message" style="width:100%; height:100%; display:none; ">
+				<h2>Success! Your Message was Sent Successfully.</h2>
+			</div>			
 		</form>
 		<ul class="icons">
 			<li><a href="https://www.linkedin.com/in/asif-iqbal-bhatti/" class="icon brands fa fa-linkedin" aria-hidden="false"><span class="label"></span></a></li>
